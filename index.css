@@ -21,14 +21,13 @@ li {
 a {
   text-decoration: none;
   color: #6e604e;
-  font-size: large;
+  font-size: 20px;
 }
 
 .navHome {
   text-decoration: underline;
   text-underline-offset: 5px;
   color: #6e604e;
-  font-size: large;
   font-weight: bold;
 }
 
@@ -57,6 +56,7 @@ a:hover {
 .role h2 {
   color: #86745e;
   font-weight: 200;
+  font-size: 24px;
   margin-top: 40px;
   margin-bottom: 0;
   padding-bottom: 0;
@@ -109,10 +109,10 @@ hr {
 
 .identification {
   display: flex;
-  flex: 1;
+  height: 100%;
   flex-direction: column;
   align-items: center;
-  margin-top: 40px;
+  justify-content: center;
 }
 
 .contact {
@@ -182,4 +182,37 @@ hr {
   padding-top: 0;
   padding-left: 25px;
   padding-right: 25px;
+}
+
+@media(min-width: 1440px) {
+  .sentenceText {
+    font-size: 50px;
+  }
+  .sentenceAnswer {
+    font-size: 35px;
+  }
+  .sentenceAuthor {
+    font-size: 30px;
+  }
+  a {
+    font-size: 22px;
+  }
+  .welcome h1 {
+    font-size: 70px;
+  }
+  .welcome h2 {
+    font-size: 40px;
+  }
+  .role h2 {
+    font-size: 35px;
+  }
+  hr {
+    width: 400px;
+    height: 1px;
+  }
+  .perfil-Piture img {
+    width: 250px;
+    height: 250px;
+    border-radius: 200px;
+  }
 }
