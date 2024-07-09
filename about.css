@@ -129,6 +129,12 @@ a:hover {
   color: #6e604e;
 }
 
+@media(max-width: 900px) {
+  .image-computer img {
+    visibility: hidden;
+  }
+}
+
 @media(min-width: 1440px) {
   a {
     font-size: 22px;
